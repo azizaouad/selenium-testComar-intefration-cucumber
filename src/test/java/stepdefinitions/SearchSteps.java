@@ -39,8 +39,8 @@ public class SearchSteps {
     }
 
     @When("click on {string}")
-    public void click_on(String rubrique) {
-        driver.findElement(By.linkText(rubrique)).click();
+    public void click_on(String link) {
+        driver.findElement(By.linkText(link)).click();
 
     }
 
